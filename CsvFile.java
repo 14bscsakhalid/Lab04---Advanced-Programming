@@ -35,7 +35,7 @@ public class CsvFile {
                 }
                 row++;
             }
-            System.out.println(myArray[701][1]);
+           
             input.close();
         } catch(FileNotFoundException e){
             e.printStackTrace();
