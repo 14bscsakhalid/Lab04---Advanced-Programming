@@ -13,7 +13,7 @@ import java.util.Scanner;
  *
  * @author Anas
  */
-public class Lab03 {
+public class Lab04 {
 
     /**
      * @param args the command line arguments
@@ -21,6 +21,8 @@ public class Lab03 {
     public static void main(String[] args) {
         // TODO code application logic here
         CsvFile.readfile(args);
+        Prioritize.priorityAssign(args);
+        System.out.println(Prioritize.pArray[2][0]);
         
         
     }
